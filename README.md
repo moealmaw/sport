@@ -18,3 +18,15 @@ Route::get('/', function () {
   return $teams;
 });
 ```
+
+## Run the example
+
+### Rename .env-sample into .env
+
+### Add database connection details (use an newly created database)
+
+### Migrate & Seed the database
+
+```shell
+php artisan migrate --seed
+```
